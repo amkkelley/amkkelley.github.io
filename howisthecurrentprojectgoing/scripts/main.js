@@ -1,1 +1,1 @@
-"use strict";
+"use strict";!function(){var e=void 0,a="Very well! 👍";switch(location.hash){case"#h":e="high",a="Very well! 👍";break;case"#m":e="medium",a="Okay ¯\\_(ツ)_/¯";break;case"#l":e="low",a="Not great 🤦‍♀️";break;case"#d":e="done",a="All done! 🎉"}document.getElementsByClassName("progress")[0].classList.add(e),document.getElementsByTagName("h1")[0].textContent=a}();
